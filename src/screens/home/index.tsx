@@ -1,8 +1,8 @@
-import { Hero, InfoSection } from "../components";
+import { Hero, InfoSection } from "../../components";
 
 
 
-export const Screen = () => {
+export const Main = () => {
     return (
      <div className="bg-slate-100">
       <Hero/>

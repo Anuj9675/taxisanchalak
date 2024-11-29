@@ -1,9 +1,9 @@
-import { Screen } from "@/src";
+import { Main } from "@/src";
 
 export default function Home() {
   return (
    <div>
-     <Screen/>
+     <Main/>
    </div>
   );
 }
