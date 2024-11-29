@@ -9,7 +9,7 @@ export function Footer() {
         <div className="space-y-4">
           <h3 className="font-bold text-lg">WHAT WE DO</h3>
           <p className="text-gray-600 text-sm">
-            Creating tech enabled tools and services to cater the needs of taxi service market in India. For which we have developed "Taxi Sanchalak" App as a start and will continue to add products and services for the unorganised taxi market in the coming future.
+            Creating tech enabled tools and services to cater the needs of taxi service market in India. For which we have developed &quotTaxi Sanchalak&quot App as a start and will continue to add products and services for the unorganised taxi market in the coming future.
           </p>
           <div className="space-y-2">
             <a href="#" className="block text-sm hover:underline">TERMS & CONDITIONS</a>
