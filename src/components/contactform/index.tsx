@@ -2,7 +2,7 @@
 export function ContactForm() {
     return (
       <div className="bg-white rounded-3xl p-6 shadow-lg flex flex-col items-center justify-center">
-        <div className="bg-black  w-fit p-3 mb-6 rounded-full">
+        <div className="bg-green-700  w-fit p-3 mb-6 rounded-full">
         <h3 className="text-lg text-center text-white">Contact Us</h3>
         </div>
         <form className="space-y-6">
@@ -18,7 +18,7 @@ export function ContactForm() {
           />
           <button
             type="submit"
-            className="w-full bg-black text-white py-2 px-6 rounded-full hover:bg-gray-800 transition-colors"
+            className="w-full bg-green-700  text-white py-2 px-6 rounded-full hover:bg-gray-800 transition-colors"
           >
             GO
           </button>

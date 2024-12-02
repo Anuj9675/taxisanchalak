@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 py-4 bg-white shadow-md">
+    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 py-4 bg-white text-slate-900 shadow-md">
       {/* Logo */}
       <div className="flex-1 flex justify-start">
         <Link href="/">
@@ -20,16 +20,16 @@ export const Navbar = () => {
 
       {/* Links for Desktop */}
       <div className="hidden lg:flex flex-1 justify-center space-x-8">
-        <Link href="/" className="text-gray-700">
+        <Link href="/" >
           Home
         </Link>
-        <Link href="/learn-how-to-use" className="text-gray-700">
+        <Link href="/learn-how-to-use" >
           Learn How To Use
         </Link>
-        <Link href="/vehicle-insurance" className="text-gray-700">
+        <Link href="/vehicle-insurance">
           Vehicle Insurance
         </Link>
-        <Link href="/manage-subscription" className="text-gray-700">
+        <Link href="/manage-subscription" >
           Manage Subscription
         </Link>
       </div>
