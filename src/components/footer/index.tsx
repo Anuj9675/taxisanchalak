@@ -11,14 +11,14 @@ export function Footer() {
 
         {/* What We Do Section */}
         <div className="space-y-4 order-2 md:order-1">
-          <h3 className="font-bold text-lg">WHAT WE DO</h3>
-          <p className="text-white text-sm">
+          <h3 className="font-bold text-xl">WHAT WE DO</h3>
+          <p className="text-white text-md">
             Creating tech enabled tools and services to cater the needs of taxi service market in India. For which we have developed &quot;Taxi Sanchalak&quot; App as a start and will continue to add products and services for the unorganised taxi market in the coming future.
           </p>
           <div className="space-y-2">
-            <a href="#" className="block text-sm hover:underline">TERMS & CONDITIONS</a>
-            <a href="#" className="block text-sm hover:underline">PRIVACY POLICY</a>
-            <a href="#" className="block text-sm hover:underline">REFUND POLICY</a>
+            <a href="#" className="block text-md hover:underline">TERMS & CONDITIONS</a>
+            <a href="#" className="block text-md hover:underline">PRIVACY POLICY</a>
+            <a href="#" className="block text-md hover:underline">REFUND POLICY</a>
           </div>
         </div>
 
