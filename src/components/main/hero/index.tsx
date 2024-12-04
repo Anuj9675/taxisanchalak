@@ -16,7 +16,7 @@ export function Hero() {
               time.
             </p>
             <Link
-              href="https://taxisanchalak.in/wp-content/uploads/2022/03/google-play-badge1.png"
+              href="https://taxiChalak.in/wp-content/uploads/2022/03/google-play-badge1.png"
               download
             >
               <button

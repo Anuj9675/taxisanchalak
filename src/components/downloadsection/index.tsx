@@ -4,12 +4,12 @@ export function DownloadSection() {
   return (
     <section className="w-full mx-auto px-4 py-8 space-y-8 bg-white">
       <Link
-        href="https://taxisanchalak.in/wp-content/uploads/2022/03/google-play-badge1.png"
+        href="https://taxiChalak.in/wp-content/uploads/2022/03/google-play-badge1.png"
         download
         className="aspect-video w-full max-w-lg mx-auto"
       >
         <img
-          src="https://taxisanchalak.in/wp-content/uploads/2022/03/google-play-badge1.png"
+          src="https://taxiChalak.in/wp-content/uploads/2022/03/google-play-badge1.png"
           alt="Google Play Badge"
           className="w-full max-w-[200px] mx-auto rounded-md shadow-xl"
         />
