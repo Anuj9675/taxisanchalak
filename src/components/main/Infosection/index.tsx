@@ -53,7 +53,7 @@ export function InfoSection() {
       Join thousands of satisfied users and experience the Taxi Sanchalak
       difference today.
     </p>
-    <Link href="/">
+    <Link href="/learn-how-to-use">
       <button className="group relative flex flex-row items-center bg-green-800 text-white justify-center gap-2 rounded-2xl px-8 py-3 text-lg font-semibold shadow-lg hover:bg-green-900 transition-all duration-300 mx-auto">
         <span className="text-center">Learn How It Works</span>
         <svg
