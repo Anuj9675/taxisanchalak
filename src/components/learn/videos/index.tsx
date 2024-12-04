@@ -51,7 +51,7 @@ const videoData: VideoData[] = [
 // Video Card Component
 function VideoCard({ video }: { video: VideoData }) {
   return (
-    <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden">
       <div className="aspect-video relative">
         <iframe
           className="absolute inset-0 w-full h-full"
@@ -61,28 +61,31 @@ function VideoCard({ video }: { video: VideoData }) {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="p-4">
-        <h3 className="text-lg font-medium text-gray-900 mb-1">
-          {video.title}
-        </h3>
-        <p className="text-sm text-gray-600">
-          {video.description}
-        </p>
-      </div>
+      
     </div>
   )
 }
 
 // Main Video Section Component
-export  function VideosSection() {
+export function VideosSection() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {videoData.map((video) => (
-          <VideoCard key={video.id} video={video} />
-        ))}
-      </div>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
+      {videoData.map((video, index) => (
+        <div
+          key={video.id}
+          className={`flex flex-col md:flex-row items-center ${
+            index % 2 === 0 ? '' : 'md:flex-row-reverse'
+          }`}
+        >
+          <div className="w-full md:w-1/2">
+            <VideoCard video={video} />
+          </div>
+          <div className="w-full md:w-1/2 text-center md:text-left md:pl-8 md:pr-8 m-4 text-white">
+            <h2 className="text-2xl font-bold  mb-4">{video.title}</h2>
+            <p >{video.description}</p>
+          </div>
+        </div>
+      ))}
     </div>
   )
 }
-

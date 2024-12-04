@@ -3,7 +3,7 @@ import { ContactForm } from "../contactform";
 
 export function Footer() {
   return (
-    <footer className="w-full bg-slate-900 py-12 px-4 text-white">
+    <footer className="w-full bg-[#084200] py-12 px-4 text-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* What We Do Section */}
         <div className="space-y-4">
@@ -15,7 +15,7 @@ export function Footer() {
             <a href="#" className="block text-sm hover:underline">TERMS & CONDITIONS</a>
             <a href="#" className="block text-sm hover:underline">PRIVACY POLICY</a>
             <a href="#" className="block text-sm hover:underline">REFUND POLICY</a>
-            <a href="#" className="block text-sm hover:underline">MANAGE SUBSCRIPTION</a>
+            
           </div>
         </div>
 
@@ -43,7 +43,7 @@ export function Footer() {
 
       {/* Copyright */}
       <div className="text-center text-sm text-white mt-8">
-        © 2022 | TSP Technologies Pvt Ltd | All Rights Reserved
+        © 2024 | TSP Technologies Pvt Ltd | All Rights Reserved
       </div>
     </footer>
   );

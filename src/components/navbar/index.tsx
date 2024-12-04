@@ -6,38 +6,32 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 py-4 bg-white text-slate-900 shadow-md">
+    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 py-4 bg-[#084200] text-white shadow-md">
       {/* Logo */}
       <div className="flex-1 flex justify-start">
         <Link href="/">
-          <img
-            src="https://taxisanchalak.in/wp-content/uploads/2022/03/Taxi-Sanchalak-Logo.png"
-            alt="Taxi Sanchalak"
-            className="h-10 w-auto cursor-pointer"
-          />
+          <p className="text-3xl">Taxi Sanchalak</p>
         </Link>
       </div>
 
       {/* Links for Desktop */}
-      <div className="hidden lg:flex flex-1 justify-center space-x-8">
+      <div className="hidden lg:flex flex-1 justify-center space-x-12 text-xl">
         <Link href="/" >
           Home
         </Link>
         <Link href="/learn-how-to-use" >
           Learn How To Use
         </Link>
-        <Link href="/vehicle-insurance">
-          Vehicle Insurance
+        <Link href="">
+          Policy
         </Link>
-        <Link href="/manage-subscription" >
-          Manage Subscription
-        </Link>
+        
       </div>
 
       {/* Hamburger Icon for Mobile */}
       <div className="flex-1 flex justify-end lg:hidden">
         <button
-          className="text-gray-700 focus:outline-none"
+          className="text-white focus:outline-none"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <svg
@@ -59,7 +53,7 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`absolute left-0 w-full bg-white shadow-lg transition-all duration-500 ease-in-out transform ${
+        className={`absolute left-0 w-full bg-[#084200] text-white shadow-lg transition-all duration-500 ease-in-out transform ${
           isMenuOpen ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
         } lg:hidden`}
         style={{
@@ -72,31 +66,25 @@ export const Navbar = () => {
           <Link
             href="/"
             onClick={() => setIsMenuOpen(false)}
-            className="text-gray-700"
+            
           >
             Home
           </Link>
           <Link
             href="/learn-how-to-use"
             onClick={() => setIsMenuOpen(false)}
-            className="text-gray-700"
+          
           >
             Learn How To Use
           </Link>
           <Link
-            href="/vehicle-insurance"
+            href="/"
             onClick={() => setIsMenuOpen(false)}
-            className="text-gray-700"
+            
           >
-            Vehicle Insurance
+            Policy
           </Link>
-          <Link
-            href="/manage-subscription"
-            onClick={() => setIsMenuOpen(false)}
-            className="text-gray-700"
-          >
-            Manage Subscription
-          </Link>
+          
         </div>
       </div>
     </nav>
