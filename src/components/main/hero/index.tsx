@@ -8,7 +8,7 @@ export function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           {/* Content Section */}
           <div className="md:w-1/2 text-center md:text-left">
-            <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-extrabold my-6 leading-tight">
               Your Ride, Your Way
             </h1>
             <p className="text-lg md:text-2xl mb-8 leading-relaxed">
