@@ -51,7 +51,7 @@ const videoData: VideoData[] = [
 // Video Card Component
 function VideoCard({ video }: { video: VideoData }) {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="bg-green-800 rounded-lg shadow-md overflow-hidden">
       <div className="aspect-video relative">
         <iframe
           className="absolute inset-0 w-full h-full"
@@ -80,7 +80,7 @@ export function VideosSection() {
           <div className="w-full md:w-1/2">
             <VideoCard video={video} />
           </div>
-          <div className="w-full md:w-1/2 text-center md:text-left md:pl-8 md:pr-8 m-4 text-white">
+          <div className="w-full md:w-1/2 text-center md:text-left md:pl-8 md:pr-8 m-4 text-green-800">
             <h2 className="text-2xl font-bold  mb-4">{video.title}</h2>
             <p >{video.description}</p>
           </div>
