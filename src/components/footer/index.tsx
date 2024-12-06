@@ -25,7 +25,7 @@ export function Footer() {
         {/* Contact Information */}
         <div className="space-y-4 text-center order-3 md:order-2">
           <div>
-            <p className="text-white text-sm">Cont no.</p>
+            <p className="text-white text-sm">Contact no.</p>
             <a href="tel:+918929506233" className="text-lg hover:underline">+91-8001-23-8001</a>
           </div>
           <div>
