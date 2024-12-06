@@ -44,7 +44,7 @@ export function Footer() {
 
       {/* Copyright */}
       <div className="text-center text-sm text-white mt-8">
-        © 2024 | TSP Technologies Pvt Ltd | All Rights Reserved
+        © 2024 | TAXI CHALAK | All Rights Reserved
       </div>
     </footer>
   );
