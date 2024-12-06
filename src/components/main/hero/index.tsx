@@ -12,7 +12,7 @@ export function Hero() {
               Your Ride, Your Way
             </h1>
             <p className="text-lg md:text-2xl mb-8 leading-relaxed">
-              Book a taxi in seconds with Taxi Chalak. Safe, reliable, and always on
+              Book a taxi in seconds with TAXI CHALAK. Safe, reliable, and always on
               time.
             </p>
             <Link

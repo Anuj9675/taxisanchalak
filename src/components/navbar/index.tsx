@@ -10,7 +10,7 @@ export const Navbar = () => {
       {/* Logo */}
       <div className="flex-1 flex justify-start">
         <Link href="/">
-          <p className="text-xl md:text-3xl">Taxi Chalak</p>
+          <p className="text-xl md:text-3xl">TAXI CHALAK</p>
         </Link>
       </div>
 

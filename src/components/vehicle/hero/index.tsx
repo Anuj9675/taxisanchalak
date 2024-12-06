@@ -16,7 +16,7 @@ export function VehicleInsuranceHero() {
             Contact to get best available quotes today
           </h2>
           <p className="text-gray-600 mb-6">
-            We at Taxi Chalak work towards enhancing the life of individuals associated with the taxi service industry for which we bring you products specifically designed for the needs of taxi service industry. Get a free quote today
+            We at TAXI CHALAK work towards enhancing the life of individuals associated with the taxi service industry for which we bring you products specifically designed for the needs of taxi service industry. Get a free quote today
           </p>
           <button className="bg-white border-2 border-black text-black font-bold py-2 px-6 rounded-full hover:bg-black hover:text-white transition duration-300">
             GET A FREE QUOTE

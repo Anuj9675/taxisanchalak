@@ -7,7 +7,7 @@ export function InfoSection() {
       <section className="py-20 bg-green-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center text-green-800">
-            Why Choose Taxi Chalak?
+            Why Choose TAXI CHALAK?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
@@ -50,7 +50,7 @@ export function InfoSection() {
       Ready to Get Started?
     </h2>
     <p className="text-lg md:text-xl mb-8">
-      Join thousands of satisfied users and experience the Taxi Chalak
+      Join thousands of satisfied users and experience the TAXI CHALAK
       difference today.
     </p>
     <Link href="/learn-how-to-use">
