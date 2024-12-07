@@ -16,9 +16,9 @@ export function Footer() {
             Creating tech enabled tools and services to cater the needs of taxi service market in India. For which we have developed &quot;TAXI CHALAK&quot; App as a start and will continue to add products and services for the unorganised taxi market in the coming future.
           </p>
           <div className="space-y-2">
-            <a href="#" className="block text-md hover:underline">TERMS & CONDITIONS</a>
-            <a href="#" className="block text-md hover:underline">PRIVACY POLICY</a>
-            <a href="#" className="block text-md hover:underline">REFUND POLICY</a>
+            <a href="/terms-and-conditions" className="block text-md hover:underline">TERMS & CONDITIONS</a>
+            <a href="/privacy-policy" className="block text-md hover:underline">PRIVACY POLICY</a>
+            <a href="/refund-policy" className="block text-md hover:underline">REFUND POLICY</a>
           </div>
         </div>
 
