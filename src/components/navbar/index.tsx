@@ -22,7 +22,7 @@ export const Navbar = () => {
         <Link href="/learn-how-to-use" >
           Learn How To Use
         </Link>
-        <Link href="">
+        <Link href="/policy">
           Policy
         </Link>
         
